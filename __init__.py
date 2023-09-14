@@ -1,0 +1,4 @@
+import sys
+import python_module_creator
+import python_module_creator.python_module_creator_class
+sys.modules[__name__].__class__ =  python_module_creator.python_module_creator_class.python_module_creator_callable
